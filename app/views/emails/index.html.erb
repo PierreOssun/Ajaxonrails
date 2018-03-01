@@ -1,0 +1,25 @@
+<div class="container">
+  <div class="well">
+    <%= link_to "Nouveau", new_email_path, remote: true, class: "btn btn-primary" %>
+  </div>
+  <div class="new-email"></div>
+  <div class="centraltable">
+  <div class="list">
+  <table class="table table-bordered table-striped">
+    <thead>
+      <tr>
+        <th>Objet</th>
+        <th>Contenu</th>
+        <td>&nbsp;</td>
+      </tr>
+    </thead>
+    <tbody class="email-index">
+      <%= render "index" %>
+    </tbody>
+  </table>
+  </div>
+  <div class="email-show">
+      <div id="email-modal" style="display:none;"></div>
+  </div>
+</div>
+<div id="email-modal" class="modal fade"></div>

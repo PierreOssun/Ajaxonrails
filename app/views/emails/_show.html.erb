@@ -1,0 +1,4 @@
+<div>
+  <p> <%= @email.body %>  </p>
+  <%= link_to "Supprimer", email_delete_path(@email), remote: true, class: "btn btn-danger" %>
+</div>

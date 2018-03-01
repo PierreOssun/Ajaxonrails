@@ -1,0 +1,7 @@
+<% @email.each do |email| %>
+<tr>
+<td><p><%= email.object %></p></td>
+<td><%= link_to "Editer", edit_email_path(email), remote: true, class: "btn btn-default" %></td>
+<td><%= link_to "Show", email_path(email), remote: true, class: "btn bnt-default" %></td>
+</tr>
+<% end %>
