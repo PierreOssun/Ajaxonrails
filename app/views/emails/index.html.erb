@@ -1,4 +1,6 @@
 <div class="container">
+  <div class="modal fade" id="email-modal" tabindex="-1" role="dialog">
+  </div>
   <div class="well">
     <%= link_to "Nouveau", new_email_path, remote: true, class: "btn btn-primary" %>
   </div>
@@ -18,8 +20,4 @@
     </tbody>
   </table>
   </div>
-  <div class="email-show">
-      <div id="email-modal" style="display:none;"></div>
-  </div>
 </div>
-<div id="email-modal" class="modal fade"></div>
