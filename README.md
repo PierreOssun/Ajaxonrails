@@ -1,4 +1,3 @@
-Marche nickel en localhost : essayez !
-Mais des erreurs sur Heroku...
+# Projet Boite Mail en Ajax
 
-https://ajoxontherails.herokuapp.com/
+https://ajax-on-rails-fr.herokuapp.com/
